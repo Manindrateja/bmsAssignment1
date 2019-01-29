@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: #313131;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 5%;
+}
+.container input.add {
+  padding: 16px 30px;
+  border: 2px solid #888;
+  border-radius: 30px;
+  width: 100%;
+  margin: auto;
+  background: #bada5533;
+  color: #fff;
+  transition: all 0.2s ease-in;
+  outline: none;
+  font-size: 16px;
+}
+.container input.add:focus {
+  border: 2px solid #fff;
+  outline: none;
+}
+.container .duplicates {
+  padding: 20px;
+  transition: all 0.5s ease-in;
+}
+.container .duplicates .item {
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+.container .duplicates .item .expression {
+  padding-right: 20px;
+  word-wrap: break-word;
+  word-break: break-word;
+  flex: 1;
+}
+.container .duplicates .item .items {
+  font-style: small;
+  flex: 4;
+  color: #f00;
+}
+.container .duplicates .item.invalid {
+  color: #f00;
+}
+.container .duplicates .added {
+  color: #33ff33;
+}
+.container .duplicates.hide {
+  display: none;
+}
+.container .list {
+  padding: 20px 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
